@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:rowCount="5"
+    android:columnCount="3">
+
+    <TextView
+        android:textSize="20dp"
+        android:text="1번 보기를 찍은 사람: "/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="x"
+        android:id="@+id/choice1"/>
+    <TextView
+        android:text=" 명"/>
+
+    <TextView
+        android:textSize="20dp"
+        android:text="2번 보기를 찍은 사람: "/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="x"
+        android:id="@+id/choice2"/>
+    <TextView
+        android:text=" 명"/>
+
+    <TextView
+        android:textSize="20dp"
+        android:text="3번 보기를 찍은 사람: "/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="x"
+        android:id="@+id/choice3"/>
+    <TextView
+        android:text=" 명"/>
+
+    <TextView
+        android:textSize="20dp"
+        android:text="4번 보기를 찍은 사람: "/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="x"
+        android:id="@+id/choice4"/>
+    <TextView
+        android:text=" 명"/>
+
+    <TextView
+        android:textSize="20dp"
+        android:text="5번 보기를 찍은 사람: "/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="x"
+        android:id="@+id/choice5"/>
+    <TextView
+        android:text=" 명"/>
+</GridLayout>

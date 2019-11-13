@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/goToListViewActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="동적 리스트뷰 예제"/>
+
+    <Button
+        android:id="@+id/goToGridViewActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="그리드뷰 예제"/>
+
+</LinearLayout>

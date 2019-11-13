@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/editMenu"
+        android:title="편집"></item>
+    <item
+        android:id="@+id/sortMenu"
+        android:title="정렬"></item>
+    <item
+        android:id="@+id/settingMenu"
+        android:title="전체 설정"></item>
+</menu>

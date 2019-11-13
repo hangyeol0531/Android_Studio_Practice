@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/favoriteOption"
+        android:title="상태 메세지 바꾸기"></item>
+    <item
+        android:id="@+id/deleteOption"
+        android:title="친구 삭제"></item>
+</menu>

@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e9c3ec"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="한결이의 일기장 어플리케이션"
+        android:textStyle="italic"
+        android:background="#70c0c7"
+        android:textSize="30dp" />
+
+    <!-- 일기의 년, 월, 일을 입력받는 EditText 위젯-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="right">
+
+        <EditText
+            android:id="@+id/year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="yyyy"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="년 " />
+
+        <EditText
+            android:id="@+id/month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="mm"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="월 " />
+
+        <EditText
+            android:id="@+id/day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="dd"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="일" />
+    </LinearLayout>
+
+    <!-- 일기 쓰기(수정)와 일기 읽기 라버튼 부분 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/writeMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="#ba36b2"
+            android:textStyle="bold"
+            android:text="일기 쓰기(수정)" />
+
+        <Button
+            android:id="@+id/readMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:background="#ba36b2"
+            android:textStyle="bold"
+            android:text="일기 읽기" />
+    </LinearLayout>
+
+    <!-- 선택한 날짜에 내용이 존재하지 않을 경우
+         일기를 작성할 수 있도록 해줌-->
+    <LinearLayout
+        android:id="@+id/writeView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/inputDiary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/writeOrInsert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e2e28c"
+            android:text="써봅시다." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/readView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EEEEFF"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/outputDiary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

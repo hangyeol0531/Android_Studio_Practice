@@ -1,0 +1,76 @@
+<!--<LinearLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--&gt;-->
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:text="버튼을 누르면 다른 액티비티로 이동합니다"-->
+        <!--/>-->
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="날 누르지 않을 수 없을꺼야"-->
+        <!--android:id="@+id/gotosecondActivity"-->
+        <!--/>-->
+
+<!--</LinearLayout>-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/munje"
+        />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="3"
+        >
+
+        <Button
+            android:text="1.ㄱ - ㄴ - ㄷ"
+            android:id="@+id/btn1"/>
+
+        <Button
+            android:text="2.ㄴ - ㄱ- ㄷ"
+            android:id="@+id/btn2"/>
+
+
+        <Button
+            android:text="3.ㄱ-ㄷ-ㄴ"
+            android:id="@+id/btn3"/>
+
+
+        <Button
+            android:text="4.ㄴ-ㄷ-ㄱ"
+            android:id="@+id/btn4"/>
+
+
+        <Button
+            android:text="5.ㄷ - ㄴ-ㄱ"
+            android:id="@+id/btn5"/>
+    </GridLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="결과보기"
+        android:id="@+id/gotoResultActivity"
+        />
+</LinearLayout>
+

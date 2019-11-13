@@ -1,0 +1,74 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFCC">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="친구가 1명밖에 없는 짭카오톡ㅠㅠ"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:id="@+id/me"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:background="#FFFF00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/myButton"
+            android:scaleType="fitCenter"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/profile1"/>
+        <TextView
+            android:id="@+id/myName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="이명규"
+            android:textSize="25dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="즐거운 앱프 수업 :D"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/friend"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:background="#FFFF00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/friendButton"
+            android:scaleType="fitCenter"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/profile2"/>
+        <TextView
+            android:id="@+id/friendName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="김도영"
+            android:textSize="25dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/sangme"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="앱프책 팔꿈치받침대 개꿀따리~" />
+    </LinearLayout>
+
+</LinearLayout>

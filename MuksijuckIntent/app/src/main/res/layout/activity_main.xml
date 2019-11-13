@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/telBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전화걸기"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="54dp"
+        />
+
+    <Button
+        android:id="@+id/webBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="웹사이트 연결"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <Button
+        android:id="@+id/mapBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="구글 맵 열기"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <Button
+        android:id="@+id/cameraBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="사진 찍기"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<EditText
+    android:id="@+id/addItemText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="리스트뷰에 포함시킬 내용 작성" />
+
+<Button
+    android:id="@+id/addListViewBtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="리스트 뷰에 추가" />
+
+<ListView
+    android:id="@+id/listView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+</ListView>
+
+</LinearLayout>
